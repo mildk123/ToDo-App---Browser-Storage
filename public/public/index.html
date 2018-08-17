@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-Do App</title>
+
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class=".container-fluid">
+        <h1 class="text-center heading">To-Do App</h1>
+    </div>
+
+    <div class="col-12 left">
+        <div class="col-6">
+            <div class="form-group">
+                <!-- <label for="user-input">: </label> -->
+                <input type="text" placeholder="Enter Task here" id="user-input" class="form-control">
+            </div>
+            <input type="button" value="Add" class="btn add" onClick="taskAdd()">
+            <input type="button" value="Delete all" class="btn del" onClick="deleteAllNodes()">
+        </div>
+    </div>
+    <BR>
+        <BR>
+
+<div class="right">
+    <div class="task-listnam">
+            <h3 class="added">Tasks Added:</h3>
+            <ol class="list-group" id="task-list">
+            </ol>
+    </div>
+</div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Raleway:200|Titan+One');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+
+body{
+    background-color: #009688;
+}
+
+
+
+.heading{
+    font-family: 'Titan One', cursive;
+    font-size: 4em;
+    text-transform: capitalize;
+    color: white;
+    -webkit-text-stroke: 3px black;
+}
+
+.form-group{
+    font-family: 'Oswald', sans-serif;
+    outline: none !important ;    
+}
+
+.left{
+    text-align: center;
+    margin-left: 25vw;
+    display: block;
+}
+
+.task-listnam{
+    width: 100vw;
+}
+
+.added{
+    font-family: 'Lato', sans-serif;
+    font-size: 5em;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    text-shadow:2px 2px 2px rgb(0, 0, 0);
+}
+.add{
+    background-color: #311B92;
+    color: white;
+}
+.del{
+    background-color: #F50057;
+    color: white;
+}
